@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>ToLEARN Website - Jelajah Video</title>
+        <link rel="stylesheet" href="css/styles.css">
+    </head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <a class="navbar-brand" href="index.html"><img src="./asset/ToLearn.png" alt="ToLEARN logo"></a>
+        <ul class="navbar-nav">
+            <li><a href="index.html">Beranda</a></li>
+            <li><a href="about.html">Tentang</a></li>
+            <li><a href="courses.html" class="active">Jelajah</a></li>
+            <li><a href="contact.html">Kontak</a></li>
+        </ul>
+        <button class="hamburger" id="hamburger-menu">
+            <div class="hamburger-line"></div>
+            <div class="hamburger-line"></div>
+            <div class="hamburger-line"></div>
+        </button>
+        <div class="search">
+            <input type="text" class="searchTerm" placeholder="Apa yang ingin kamu cari?">
+            <button type="submit" class="searchButton">
+                <img src="./asset/search_small.png" alt="search">
+            </button>
+        </div>
+    </nav>
+
+    <!-- Content -->
+    <main class="container">
+        <h1>Video Tutorial</h1>
+        <p>Jelajahi semua video tutorial kami</p>
+        <div class="card-grid" id="videoGrid"></div>
+        <div class="pagination" id="pagination"></div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; 2024 ToLearn</p>
+    </footer>
+    <script src="js/scripts.js"></script>
+</body>
+</html>
